@@ -1,0 +1,81 @@
+.hero{
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    // justify-content: flex-end;
+    // background:linear-gradient(180 deg, rgb(18, 22, 99),rgb(70, 52, 112))  ;
+    position: relative;
+    .wrapper{
+      
+       
+        
+        height: 100%;
+        flex: 70%;
+        h2,h3{
+            color: antiquewhite;
+            font-size: 30px;
+            letter-spacing: 10px;
+        }
+        h1{
+            font-size: 88px;
+
+        }
+        .text{
+            height: 100%;
+            width: 100%;
+           
+       
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            gap:40px;
+        }
+        .button{
+            
+            button{
+            
+                border: 2px solid white;
+                border-radius: 5px ;
+             background-color: transparent;
+             color: white;
+            }
+
+
+        }
+        
+    }
+    
+    
+    .slidectr{
+        position: absolute;
+        bottom: -30px;
+        font-size: 30vh;
+        white-space: nowrap;
+        color: rgba(4, 8, 47, 0.167);
+        width: 50%;
+        font-weight: bold;
+    }
+    
+    .img-ctr{
+        flex: 30%;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        
+        position:relative;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+       
+
+
+    }
+}
